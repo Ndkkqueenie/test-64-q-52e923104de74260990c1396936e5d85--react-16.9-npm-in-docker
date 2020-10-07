@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const REACT_APP_API_URL = "http://3.226.236.228:4006/api";
+const REACT_APP_API_URL = "http://35.173.231.204:4006/api";
 
 class LeadService {
 
