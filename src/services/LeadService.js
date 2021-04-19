@@ -5,7 +5,7 @@ const REACT_APP_API_URL = "https://607d3f12184368001769d3a0.mockapi.io/api";
 class LeadService {
 
     getLeads(){
-        return axios.get(REACT_APP_API_URL + '/leads/?location_string=India');
+        return axios.get(REACT_APP_API_URL + '/leads/');
     }
 
     createLead(lead){
