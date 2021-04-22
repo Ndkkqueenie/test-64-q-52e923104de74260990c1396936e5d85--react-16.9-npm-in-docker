@@ -1,9 +1,6 @@
-.App {
-  text-align: center;
-}
 
 .nav-bar {
-    background: linear-gradient(-70deg, #343a40, #16C0B0);
+    background: linear-gradient(-70deg, #343a40, #16C0B0, #343a40);
     height: 60px;
     margin-bottom: 15px;
     color: "#ffffff"
