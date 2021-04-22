@@ -12,11 +12,11 @@ const onSubmit = (event) => {
 class App extends Component {
   render () {
     return (
-      <div class="nav-bar">
-        <h2 className="text-center" color="#ffffff !important">Leads Analytics Platform</h2>
-        <br></br>
-      </div>
       <div className="container">
+        <div class="nav-bar">
+          <h2 className="text-center" color="#ffffff !important">Leads Analytics Platform</h2>
+          <br></br>
+        </div>
         <div>
           <Container triggerText={triggerText} onSubmit={onSubmit} />
           <br></br>
